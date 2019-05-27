@@ -7,7 +7,7 @@ FROM openjdk:8-jdk-alpine as dependencies-resolver
                     
 FROM dependencies-resolver as builder
     WORKDIR /app
-    COPY ./src ./src
+    COPY ./src ./src    
     RUN ./mvnw clean package
 
 FROM builder
