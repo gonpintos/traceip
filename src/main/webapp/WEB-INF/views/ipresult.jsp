@@ -1,17 +1,39 @@
+<head>
+</head>
 <body>
-    <h2>Submitted Employee Information</h2>
+    <h2>IP Country Information</h2>
     <table>
         <tr>
-            <td>Name :</td>
-            <td>${name}</td>
+            <td>IP:</td>
+            <td>${ip}</td>
         </tr>
         <tr>
-            <td>ID :</td>
-            <td>${id}</td>
+            <td>Fecha actual:</td>
+            <td>${currentDateTime}</td>
         </tr>
         <tr>
-            <td>Contact Number :</td>
-            <td>${contactNumber}</td>
+            <td>País:</td>
+            <td>${countryName}</td>
+        </tr>
+        <tr>
+            <td>ISO Code:</td>
+            <td>${countryISOCode}</td>
+        </tr>
+        <tr>
+            <td>Idiomas:</td>
+            <td>${languages}</td>
+        </tr>
+        <tr>
+            <td>Moneda:</td>
+            <td>${currency}</td>
+        </tr>
+        <tr>
+            <td>Horas:</td>
+            <td>${currentTimes}</td>
+        </tr>
+        <tr>
+            <td>Distancia estimada (KMs):</td>
+            <td>${approximateDistance}</td>
         </tr>
     </table>
 </body>
